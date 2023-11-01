@@ -42,15 +42,15 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 The dataset used for this project should be provided separately. It should include house features (e.g., square footage, number of bedrooms, location) and the corresponding house prices. Make sure to place the dataset file in the data/ directory.
 
 ## Usage
-Clone this repository: 'git clone https://github.com/Karthika0510/Predicting-House-Prices.git'
+1. Clone this repository:'git clone https://github.com/Karthika0510/Predicting-House-Prices.git'
    cd house-pricing-prediction
    
 
-Ensure you have the required dependencies installed (as mentioned above).
+2. Ensure you have the required dependencies installed (as mentioned above).
 
-Place your dataset in the data/ directory.
+3. Place your dataset in the data/ directory.
 
-Open and run the provided Jupyter Notebook for house pricing prediction:
+4. Open and run the provided Jupyter Notebook for house pricing prediction:
 
  bash
    jupyter notebook house_pricing_prediction.ipynb
@@ -58,7 +58,7 @@ Open and run the provided Jupyter Notebook for house pricing prediction:
 
    Follow the instructions in the notebook to train and test the machine learning model. You can customize the model, hyperparameters, and evaluation metrics as needed.
 
-After running the notebook, you'll get insights into the model's performance, including predictions and evaluation results.
+5. After running the notebook, you'll get insights into the model's performance, including predictions and evaluation results.
 
 ## Customization
 You can customize this code to fit your specific dataset and requirements. You can modify the feature selection, preprocessing, and model architecture to improve prediction accuracy.
@@ -78,16 +78,16 @@ Dataset:https://www.kaggle.com/datasets/vedavyasv/usa-housing
 ## Dataset Description:
          The Boston Housing Dataset contains various features and target values related to housing prices in different neighborhoods in Boston, Massachusetts. It is commonly used for regression tasks to predict the median value of owner-occupied homes in thousands of dollars (the target variable) based on several input features. The dataset typically includes features like:
 
-Crime Rate (CRIM): Per capita crime rate by town.
-Residential Land Zone (ZN): Proportion of residential land zoned for large lots.
-Non-Retail Business Acres (INDUS): Proportion of non-retail business acres.
-Charles River Dummy Variable (CHAS): Whether the property is adjacent to the Charles River (0 or 1).
-Nitrogen Oxides Concentration (NOX): Nitrogen oxide concentration (parts per 10 million).
-Number of Rooms (RM): Average number of rooms per dwelling.
-Age (AGE): Proportion of owner-occupied units built before 1940.
-Distance to Employment Centers (DIS): Weighted distance to employment centers.
-Property Tax (TAX): Property tax rate.
-Pupil-Teacher Ratio (PTRATIO): Pupil-teacher ratio by town.
-Proportion of Lower Status Population (LSTAT): Percentage of lower status population.
+1. Crime Rate (CRIM): Per capita crime rate by town.
+2. Residential Land Zone (ZN): Proportion of residential land zoned for large lots.
+3. Non-Retail Business Acres (INDUS): Proportion of non-retail business acres.
+4. Charles River Dummy Variable (CHAS): Whether the property is adjacent to the Charles River (0 or 1).
+5. Nitrogen Oxides Concentration (NOX): Nitrogen oxide concentration (parts per 10 million).
+6. Number of Rooms (RM): Average number of rooms per dwelling.
+7. Age (AGE): Proportion of owner-occupied units built before 1940.
+8. Distance to Employment Centers (DIS): Weighted distance to employment centers.
+9. Property Tax (TAX): Property tax rate.
+10. Pupil-Teacher Ratio (PTRATIO): Pupil-teacher ratio by town.
+11. Proportion of Lower Status Population (LSTAT): Percentage of lower status population.
 
        The goal of using this dataset is to build a regression model that can predict the median house price (MEDV) based on these features. Researchers and practitioners often use this dataset to explore regression algorithms, test model performance, and experiment with different feature engineering techniques and machine learning models to predict house prices accurately. It serves as a valuable resource for learning and practicing regression analysis in the field of machine learning and data science.
